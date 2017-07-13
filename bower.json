@@ -1,0 +1,22 @@
+{
+  "name": "almundo",
+  "authors": [
+    "Maylan Velazquez <maylanvn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/client/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^v1.6.4"
+  }
+}

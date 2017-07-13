@@ -1,0 +1,11 @@
+.filters-root-ctn
+    ul
+        li
+            header-search
+            h4(ng-init="hidefilters=false", ng-click="hidefilters=!hidefilters") Filtrar <i class="fa fa-caret-down" aria-hidden="true"></i>
+        li
+            search-name(filters ='$ctrl.filters', ng-show="!hidefilters")
+        li
+            search-price(filters ='$ctrl.filters', ng-show="!hidefilters")
+        li
+            search-stars(filters ='$ctrl.filters', ng-show="!hidefilters")
